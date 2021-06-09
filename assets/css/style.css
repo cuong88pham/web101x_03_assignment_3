@@ -1,0 +1,41 @@
+.img-full-width {
+  width: 100%;
+}
+#footer, #footer a{
+  background: #1d1d1d;
+  color: #fff;
+}
+#news, #news a {
+  color: #000;
+  text-decoration: none;
+}
+#news a.btn {
+  color: #fff;
+}
+#news .image-box {
+  height: 248px;
+  overflow: hidden;
+}
+h2 {
+  font-size: 16px;
+}
+h2 span:before{
+  content:"\00a0\00a0\00a0\00a0\00a0\00a0 ";
+  text-decoration:line-through;
+  color: #0d6efd;
+  
+}
+h1 {
+  position: relative;
+}
+h1 span:after{
+  content: "";
+  height: 5px;
+  width: 64px;
+  background-color: #0d6efd;
+  position: absolute;
+  bottom: -.5em;
+  left: 50%;
+  transform: translate(-50%);
+  
+}
